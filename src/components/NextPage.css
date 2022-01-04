@@ -1,0 +1,77 @@
+
+#main-div {
+    width: 100%;
+    background-color: white;
+}
+
+#para {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2%;
+    background-color: white;
+}
+
+span {
+    font-weight: lighter;
+    background-color: white;
+}
+
+.LogoOne {
+    background-image: url(./pic1.png);
+    width: 300px;
+}
+
+.LogoTwo {
+    background-image: url(./pic1.png);
+    width: 300px;
+}
+
+.LogoThree {
+    background-image: url(./pic3.png);
+    width: 300px;
+}
+
+.LogoFour {
+    background-image: url(./pic4.png);
+    width: 300px;
+}
+
+.LogoFive {
+    background-image: url(./pic5.png);
+    width: 300px;
+}
+
+#first-Img {
+    width: 80%;
+    height: 15%;
+    border-radius: 20px;
+    filter: none;
+}
+
+#secondImg{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 210px;
+    filter: none;
+}
+
+#thirdImg {
+    margin-top: 20px;
+    filter: none;
+    width: 46%;
+    margin-left: 50px;
+    border-radius:5px;
+}
+
+#fourthImg {
+    width: 100%;
+    filter: none;
+    margin-top: 50px;
+}
+
+#fifthImg {
+    width: 100%;
+    filter: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
