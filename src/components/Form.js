@@ -98,11 +98,11 @@ function Form() {
                     </select>
                     <br></br>   
                     {/* <Link to={'/nextpage'}> */}
-                    <button id='button' type='submit'>Save</button>
+                    <button id='button' type='submit'>Submit</button>
 
                     {Object.keys (formErrors).length === 0 && isSubmit ? ( 
                         <Link to={'/nextpage'}>
-                            <button id='button' type='submit'>Submit</button>
+                            <button id='button' type='submit'>Proceed</button>
                         </Link>  ):(
                         <pre hidden>{ JSON.stringify(formValues, undefined, 2) }</pre>)
                     }
